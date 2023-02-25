@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <python_object>
+    <gcode_preamble>
+% \n
+G90 G94 G17 G91.1 \n
+G21 \n
+G53 G0 Z0 \n
+    </gcode_preamble>
+    <gcode_conclusion>
+G0 Z43.2  \n
+G17  \n
+M9  \n
+G53 G0 Z0.  \n
+G53 G0 X0. Y0.  \n
+M30 \n
+%
+</gcode_conclusion>  
+    <stock_length>2440</stock_length>
+    <stock_width>1220</stock_width>
+    <stock_depth>18.2</stock_depth>
+    <contour_tool>T010630</contour_tool>
+    <dog_boning_tool>T010420</dog_boning_tool>
+    <drill_tools>
+      <drill>T050330</drill>
+      <drill>T050440</drill>
+    </drill_tools>
+  </python_object>
+</config>

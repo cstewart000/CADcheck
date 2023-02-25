@@ -1,0 +1,7 @@
+shapely-2.0.0
+shapley.geometry
+numpy-1.24.1
+matplotlib-descartes
+python-math
+ezdxf
+shapely.geometry.affinity
